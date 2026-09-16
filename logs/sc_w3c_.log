@@ -1,0 +1,4 @@
+#Software: SHOUTcast
+#Version: 2.6.1.777
+#Fields: c-ip c-dns date time cs-uri-stem c-status cs(User-Agent) sc-bytes x-duration avgbandwidth
+45.225.118.157 127.0.0.1 2026-09-16 00:48:21 /stream?title=Unknown 200 Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F153.0.0.0%20Safari%2F537.36%20Edg%2F153.0.0.0 14677788 480 244629
