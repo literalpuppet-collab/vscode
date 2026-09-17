@@ -1,7 +1,0 @@
-#Software: SHOUTcast
-#Version: 2.6.1.777
-#Fields: c-ip c-dns date time cs-uri-stem c-status cs(User-Agent) sc-bytes x-duration avgbandwidth
-37.27.57.47 127.0.0.1 2026-09-16 00:57:35 /stream?title=Unknown 200 Apache-HttpClient%2F4.5.14%20%28Java%2F21.0.10%29 118560 0 0
-136.243.61.5 127.0.0.1 2026-09-16 00:57:44 /stream?title=Unknown 200 node-internet-radio%20v0.2.1 131072 1 1048576
-37.27.57.47 127.0.0.1 2026-09-16 00:58:11 /stream?title=Unknown 200 Apache-HttpClient%2F4.5.14%20%28Java%2F21.0.10%29 1321152 35 301977
-45.225.118.157 127.0.0.1 2026-09-16 01:01:10 /stream?title=Unknown 200 Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F153.0.0.0%20Safari%2F537.36%20Edg%2F153.0.0.0 5646912 177 255227
