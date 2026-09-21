@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Inicia o Icecast2 em segundo plano
-icecast2 -b -c /etc/icecast2/icecast.xml
+# A dey start da Shoutcast server na background
+./sc_serv sc_serv.conf &
 
-# Aguarda o serviço iniciar a porta
+# A dey wet 2 sekɔn mek da port kin opin fine
 sleep 2
 
-# Inicia o AutoDJ em Python
-python autodj.py
+# A dey start da AutoDJ we mek wikal Python script
+python main.py

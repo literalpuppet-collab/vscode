@@ -1,0 +1,28 @@
+2026-09-21 20:02:26	INFO	*********************************************************************
+2026-09-21 20:02:26	INFO	**        Shoutcast Distributed Network Audio Server (DNAS)        **
+2026-09-21 20:02:26	INFO	**    Copyright (C) 2014-2022 Radionomy SA, All Rights Reserved    **
+2026-09-21 20:02:26	INFO	*********************************************************************
+2026-09-21 20:02:26	INFO	[MAIN] Shoutcast DNAS/posix(linux x64) v2.6.1.777 (Jan 28 2022)
+2026-09-21 20:02:26	INFO	[MAIN] PID: 54311
+2026-09-21 20:02:26	INFO	[MAIN] Saving log output to `/workspaces/vscode/logs/sc_serv.log'
+2026-09-21 20:02:26	INFO	[MAIN] Automatic log rotation interval: 1 day
+2026-09-21 20:02:26	INFO	[MAIN] Loaded config from `/workspaces/vscode/sc_serv.conf'
+2026-09-21 20:02:26	INFO	[MAIN] Calculated CPU count is 2 -> 1 CPU specified to be used
+2026-09-21 20:02:26	INFO	[MAIN] Limited to 524288 file descriptors [relates to ulimit -n]
+2026-09-21 20:02:26	DEBUG	ident is DIDCc11b3ff0181f4330a927b5a7cd4ba097-8000, DID is 1bcff49c6fbce0432853481bb57a4255d5b437fcaea61834f295503cd0c0b32f
+2026-09-21 20:02:26	INFO	[MAIN] Starting 1 network thread
+2026-09-21 20:02:26	INFO	[AGENT] Loaded 1 blocked user agents from global agent file
+2026-09-21 20:02:26	INFO	[MICROSERVER] Listening for source and client connections on port 8000
+2026-09-21 20:02:26	INFO	[MICROSERVER] Listening for legacy source connections on port 8001
+2026-09-21 20:02:26	INFO	[MICROSERVER] Flash policy file server not enabled
+2026-09-21 20:02:50	INFO	[SRC 127.0.0.1:60464 sid=1] Shoutcast 1 source connection starting.
+2026-09-21 20:02:50	INFO	[SRC 127.0.0.1:60464 sid=1] stream detected MPEG v1 layer 3 stereo
+2026-09-21 20:03:00	INFO	[DST 45.225.118.157:35328 (xff) sid=1] HTTP client connection accepted. User-Agent: `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0', UID: 1, GRID: 1
+2026-09-21 20:03:29	INFO	[DST 45.225.118.157:35328 (xff) sid=1] HTTP client connection closed (29 seconds) [Bytes: 606459] Agent: `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0', UID: 1, GRID: 1
+2026-09-21 20:03:33	DEBUG	[SRC 127.0.0.1:60464 sid=1] Remote socket closed while waiting for data.
+2026-09-21 20:03:33	INFO	[SRC 127.0.0.1:60464 sid=1] Shoutcast 1 source disconnected.
+2026-09-21 20:03:33	INFO	[MAIN] Exiting threads...
+2026-09-21 20:03:33	INFO	[STATS] Peak numbers: #1:1,Total: 1
+2026-09-21 20:03:33	INFO	[BANDWIDTH] Total: 1298160, Sent: 611894, Recv: 686266
+2026-09-21 20:03:33	INFO	[MAIN] Shutdown after 1 minute 7 seconds running
+

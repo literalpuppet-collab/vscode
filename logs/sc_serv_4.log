@@ -1,0 +1,20 @@
+2026-09-21 19:54:12	INFO	*********************************************************************
+2026-09-21 19:54:12	INFO	**        Shoutcast Distributed Network Audio Server (DNAS)        **
+2026-09-21 19:54:12	INFO	**    Copyright (C) 2014-2022 Radionomy SA, All Rights Reserved    **
+2026-09-21 19:54:12	INFO	*********************************************************************
+2026-09-21 19:54:12	INFO	[MAIN] Shoutcast DNAS/posix(linux x64) v2.6.1.777 (Jan 28 2022)
+2026-09-21 19:54:12	INFO	[MAIN] PID: 50362
+2026-09-21 19:54:12	INFO	[MAIN] Saving log output to `/workspaces/vscode/logs/sc_serv.log'
+2026-09-21 19:54:12	INFO	[MAIN] Automatic log rotation interval: 1 day
+2026-09-21 19:54:12	INFO	[MAIN] Loaded config from `/workspaces/vscode/sc_serv.conf'
+2026-09-21 19:54:12	INFO	[MAIN] Calculated CPU count is 2 -> 1 CPU specified to be used
+2026-09-21 19:54:12	INFO	[MAIN] Limited to 524288 file descriptors [relates to ulimit -n]
+2026-09-21 19:54:12	DEBUG	ident is DIDCc11b3ff0181f4330a927b5a7cd4ba097-8000, DID is 1bcff49c6fbce0432853481bb57a4255d5b437fcaea61834f295503cd0c0b32f
+2026-09-21 19:54:12	INFO	[MAIN] Starting 1 network thread
+2026-09-21 19:54:12	INFO	[AGENT] Loaded 1 blocked user agents from global agent file
+2026-09-21 19:54:12	INFO	[MICROSERVER] Listening for source and client connections on port 8000
+2026-09-21 19:54:12	INFO	[MICROSERVER] Listening for legacy source connections on port 8001
+2026-09-21 19:54:12	INFO	[MICROSERVER] Flash policy file server not enabled
+2026-09-21 19:54:21	INFO	[MAIN] Exiting threads...
+2026-09-21 19:54:21	INFO	[MAIN] Shutdown after 9 seconds running
+
