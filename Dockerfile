@@ -1,9 +1,11 @@
 FROM python:3.10-slim
 
-# Instala o Icecast2 e o FFmpeg no sistema
+# Instala o FFmpeg, curl e bibliotecas necessárias para rodar o binário do Shoutcast no Linux
 RUN apt-get update && apt-get install -y \
-    icecast2 \
     ffmpeg \
+    curl \
+    libc6 \
+    libstdc++6 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -14,10 +16,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Permissão para o script de inicialização
-RUN chmod +x start.sh
+# Da permissao de execucao para o binario do Shoutcast e o script de inicializacao
+RUN chmod +x sc_serv start.sh
 
-# Expõe a porta do servidor de rádio
+# Expoe a porta do servidor Shoutcast
 EXPOSE 8000
 
 CMD ["./start.sh"]
