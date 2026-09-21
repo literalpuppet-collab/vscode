@@ -1,8 +1,8 @@
 FROM python:3.10-slim
 
-# Instala o FFmpeg, curl e bibliotecas necessárias para rodar o binário do Shoutcast no Linux
+# Instala o Liquidsoap, curl e bibliotecas necessárias para o Shoutcast
 RUN apt-get update && apt-get install -y \
-    ffmpeg \
+    liquidsoap \
     curl \
     libc6 \
     libstdc++6 \
@@ -10,16 +10,17 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-# Copia os arquivos do projeto para o container
+# Copia e instala as dependências do Python a partir do requirements.txt
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copia os arquivos do projeto para o container
 COPY . .
 
-# Da permissao de execucao para o binario do Shoutcast e o script de inicializacao
+# Dá permissão de execução para o binário do Shoutcast e o script de inicialização
 RUN chmod +x sc_serv start.sh
 
-# Expoe a porta do servidor Shoutcast
+# Expõe a porta do servidor Shoutcast
 EXPOSE 8000
 
 CMD ["./start.sh"]
