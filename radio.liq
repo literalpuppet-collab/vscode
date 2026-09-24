@@ -14,11 +14,12 @@ playlist_musicas = playlist(music_dir, mode="randomize")
 def formatar_metadados(m) =
   title = m["title"]
   artist = m["artist"]
-  filename = m["filename"]
-
+  # Pega só o nome do arquivo (sem caminho e sem extensão)
+  filename = path.remove_extension(path.basename(m["filename"]))
+  
   # Define o título que aparecerá no Discord / Players
   display_title = if title != "" then "#{artist} - #{title}" else filename end
-
+  
   # Retorna o dicionário de metadados com o campo 'title' atualizado
   [("title", display_title)]
 end
